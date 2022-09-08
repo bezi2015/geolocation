@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: geolocation-ecr-rep-app
-        image: 070285518813.dkr.ecr.us-east-1.amazonaws.com/geolocation_ecr_rep:latest
+        image: 070285518813.dkr.ecr.us-east-1.amazonaws.com/geoloction_ecr_repa:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8082
